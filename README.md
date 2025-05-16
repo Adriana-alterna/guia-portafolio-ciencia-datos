@@ -46,19 +46,10 @@ Puedes abrir un "issue" en este repositorio o contactar a tu instructor para obt
 
 ---
 
-## Licencia
+##  📄 Licencia
 
-Este repositorio está licenciado bajo la licencia [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
+Este proyecto está licenciado bajo los términos de la **GNU General Public License v3.0 (GPL-3.0)**.  
+Puedes ver los detalles completos de la licencia en el archivo [`LICENSE`](LICENSE) o en [gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html).
 
-Eres libre de:
-
-- **Compartir** — copiar y redistribuir el material en cualquier medio o formato
-- **Adaptar** — remezclar, transformar y construir a partir del material
-
-**Bajo las siguientes condiciones**:
-
-- **Atribución** — Debes dar crédito de manera adecuada, proporcionar un enlace a la licencia e indicar si se han realizado cambios.
-- **NoComercial** — No puedes utilizar el material con fines comerciales.
-- **CompartirIgual** — Si remezclas, transformas o construyes a partir del material, debes distribuir tu contribución bajo la misma licencia que el original.
-
+Esto significa que puedes usar, modificar y distribuir este proyecto libremente, siempre que mantengas esta misma licencia en cualquier versión derivada.
 
