@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Estructura de un Portafolio de Ciencia de Datos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-color: #000;
+      color: #ccc;
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    a {
+      color: #ff6f00;
+    }
+
+    a:hover {
+      color: #ffa040;
+    }
+
+    .navbar {
+      background-color: #111 !important;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: #ff6f00 !important;
+    }
+
+    h1, h2, h3, h4 {
+      color: #fff;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .btn-orange {
+      background-color: #ff6f00;
+      color: #000;
+      border: none;
+    }
+
+    .btn-orange:hover {
+      background-color: #ffa040;
+    }
+
+    .list-group-item {
+      background-color: #111;
+      border: 1px solid #333;
+      color: #ccc;
+    }
+
+    .highlight {
+      color: #ff6f00;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Mi Portafolio DS</a>
+    </div>
+  </nav>
+
+  <!-- Sección contenido -->
+  <section class="section">
+    <div class="container">
+      <h1>¿Qué debe tener tu portafolio de ciencia de datos?</h1>
+      <p>Un portafolio bien construido es más que una colección de archivos: es una herramienta que habla por ti, demuestra tus habilidades técnicas y tu capacidad para comunicar ideas complejas de forma clara. A continuación, te explicamos cada uno de los elementos esenciales que no deben faltar en tu portafolio.</p>
+
+      <h2 class="mt-5">📝 README.md claro y atractivo</h2>
+      <p>El <span class="highlight">README.md</span> es la primera impresión que cualquier visitante tendrá de tu proyecto. Debería incluir:</p>
+      <ul>
+        <li>📌 Una <strong>descripción breve</strong> del propósito del proyecto.</li>
+        <li>🛠️ Tecnologías y herramientas utilizadas.</li>
+        <li>📊 Datos y fuentes si se usaron datasets públicos.</li>
+        <li>📷 Capturas de pantalla o GIFs de las visualizaciones o dashboards.</li>
+        <li>🚀 Instrucciones para ejecutar el proyecto (si aplica).</li>
+        <li>📈 Resultados clave o aprendizajes obtenidos.</li>
+      </ul>
+      <p>Un buen README debe ser claro, escaneable y visualmente amigable. Puedes usar emojis y formatos con Markdown para destacar secciones.</p>
+
+      <h2 class="mt-5">📊 Notebooks con visualizaciones limpias</h2>
+      <p>Los notebooks son el corazón técnico de tus proyectos. Algunas recomendaciones:</p>
+      <ul>
+        <li>💬 Agrega comentarios y celdas de texto explicativas entre bloques de código.</li>
+        <li>📉 Usa gráficos que sean fáciles de interpretar, evita sobrecargar las visualizaciones.</li>
+        <li>✅ Mantén limpio el entorno: borra celdas innecesarias o duplicadas.</li>
+        <li>🔍 Incluye análisis exploratorios (EDA), modelos, métricas de evaluación y conclusiones.</li>
+      </ul>
+
+      <h2 class="mt-5">📁 Carpetas bien organizadas</h2>
+      <p>La organización del proyecto facilita su revisión y reuso. Una estructura sugerida:</p>
+      <ul>
+        <li><code>/data</code>: datasets utilizados (o un enlace si no se pueden compartir).</li>
+        <li><code>/notebooks</code>: notebooks Jupyter con el desarrollo del análisis.</li>
+        <li><code>/src</code>: scripts de funciones o módulos auxiliares.</li>
+        <li><code>/output</code>: gráficos, tablas o archivos generados.</li>
+        <li><code>/docs</code>: documentación adicional o visualizaciones estáticas.</li>
+      </ul>
+
+      <h2 class="mt-5">💡 Proyectos propios o con datasets públicos</h2>
+      <p>No necesitas inventar el próximo algoritmo revolucionario. Lo importante es mostrar tus habilidades resolviendo problemas reales o interesantes:</p>
+      <ul>
+        <li>📚 Usa datasets públicos de <a href="https://www.kaggle.com/" target="_blank">Kaggle</a>, <a href="https://data.world/" target="_blank">data.world</a> o <a href="https://datos.gob.mx/" target="_blank">datos.gob.mx</a>.</li>
+        <li>💬 Resuelve preguntas relevantes: ¿cómo ha cambiado la población?, ¿qué factores predicen el abandono escolar?, etc.</li>
+        <li>🎯 Enfoca cada proyecto en una habilidad distinta: visualización, modelos predictivos, limpieza de datos, dashboards, etc.</li>
+      </ul>
+
+      <p class="mt-4">Recuerda: tu portafolio no solo muestra lo que sabes, también demuestra cómo piensas, cómo organizas tu trabajo y cómo comunicas resultados.</p>
+    </div>
+  </section>
+
+  <!-- Botón -->
+  <div class="container text-center mb-5">
+    <a href="index.html" class="btn btn-orange">Volver al inicio</a>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

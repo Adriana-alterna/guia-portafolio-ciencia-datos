@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tu primer portafolio en GitHub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #000;
+      color: #ccc;
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    a {
+      color: #ff6f00;
+    }
+
+    a:hover {
+      color: #ffa040;
+    }
+
+    .navbar {
+      background-color: #111 !important;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: #ff6f00 !important;
+    }
+
+    .hero {
+      background-color: #ff6f00;
+      color: #000;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .section-alt {
+      background-color: #111;
+    }
+
+    h1, h2, h3, h4 {
+      color: #fff;
+    }
+
+    .btn-orange {
+      background-color: #ff6f00;
+      color: #000;
+      border: none;
+    }
+
+    .btn-orange:hover {
+      background-color: #ffa040;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      color: #ccc;
+    }
+
+    .list-group-item {
+      background-color: #111;
+      border: 1px solid #333;
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #111;
+      color: #888;
+    }
+
+    footer a {
+      color: #ff6f00;
+    }
+
+    .card-icon {
+      font-size: 2rem;
+      color: #ff6f00;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Portafolio DS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navLinks">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#por-que">¿Por qué?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#github">GitHub</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contenido">Contenido</a></li>
+        <li class="nav-item"><a class="nav-link" href="#ejemplo">Ejemplo</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reto">Reto</a></li>
+        <li class="nav-item"><a class="nav-link" href="#recursos">Recursos</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <h1 class="display-4">Convierte tus proyectos en oportunidades</h1>
+    <p class="lead">Crea tu portafolio de ciencia de datos con GitHub</p>
+    <a href="pasos_github.html" class="btn btn-light btn-lg mt-3">Descubre cómo</a>
+  </div>
+</section>
+
+<!-- Sección: ¿Por qué tener un portafolio? -->
+<section id="por-que" class="py-5">
+  <div class="container">
+    <h2 class="mb-4">¿Por qué tener un portafolio?</h2>
+    <div class="row g-4">
+      <div class="col-md-3"><div class="card h-100 text-center p-3"><div class="card-icon">✅</div><p>Muestra lo que sabes hacer</p></div></div>
+      <div class="col-md-3"><div class="card h-100 text-center p-3"><div class="card-icon">💼</div><p>Mejora tus oportunidades laborales</p></div></div>
+      <div class="col-md-3"><div class="card h-100 text-center p-3"><div class="card-icon">👨‍💻</div><p>Te distingue de otros perfiles</p></div></div>
+      <div class="col-md-3"><div class="card h-100 text-center p-3"><div class="card-icon">🔍</div><p>Te obliga a documentar y ordenar tus proyectos</p></div></div>
+    </div>
+     <!-- Botón centrado y naranja que lleva a la página del portafolio -->
+    <div class="d-flex justify-content-center mt-4">
+      <a href="portafolio.html" class="btn btn-orange">
+        Comprende mejor qué es un portafolio
+      </a>
+    </div>
+  </div>
+</section>
+  </div>
+  
+</section>
+
+<!-- Sección: GitHub -->
+<section id="github" class="py-5 section-alt">
+  <div class="container">
+    <h2 class="mb-4">¿Qué es GitHub y por qué importa?</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p><strong>Git</strong> es un sistema de control de versiones que te permite llevar registro de tus proyectos de forma profesional.</p>
+        <p><strong>GitHub</strong> es una plataforma en línea donde puedes compartir esos proyectos, colaborar con otros y construir tu portafolio.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="GitHub logo" class="img-fluid rounded" />
+      </div>
+      <!-- Botón centrado y naranja que lleva a la página del portafolio -->
+    <div class="d-flex justify-content-center mt-4">
+      <a href="git_github.html" class="btn btn-orange">
+        Git y Github a fondo
+      </a>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección: Contenido del portafolio -->
+<section id="contenido" class="py-5">
+  <div class="container">
+    <h2 class="mb-4">¿Qué debe tener tu portafolio?</h2>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">📝 Un archivo <code>README.md</code> claro y atractivo</li>
+      <li class="list-group-item">📊 Notebooks con visualizaciones limpias</li>
+      <li class="list-group-item">📁 Carpetas bien organizadas</li>
+      <li class="list-group-item">💡 Proyectos propios o basados en datasets públicos</li>
+    </ul>
+  </div>
+  <!-- Botón centrado y naranja que lleva a la página del portafolio -->
+    <div class="d-flex justify-content-center mt-4">
+      <a href="construccion.html" class="btn btn-orange">
+        Hints para un buen portafolio
+      </a>
+    </div>
+</section>
+
+<!-- Sección: Ejemplo -->
+<section id="ejemplo" class="py-5 section-alt">
+  <div class="container">
+    <!-- Bloque 1: Ejemplo en vivo -->
+    <h2 class="mb-4">Ejemplo en vivo</h2>
+    <p>Aquí tienes un ejemplo de un proyecto bien presentado en GitHub:</p>
+    <a href="https://github.com/tuusuario/ejemplo-proyecto" target="_blank" class="btn btn-outline-primary mb-5">Ver en GitHub</a>
+
+    <!-- Bloque 2: Lista de portafolios -->
+    <h2 class="mb-4">Lista de los mejores portafolios</h2>
+    <p>
+      En el siguiente 
+      <a href="https://careerfoundry.com/en/blog/data-analytics/data-analytics-portfolio-examples/" target="_blank">
+        enlace
+      </a> 
+      se presentan nueve de los mejores portafolios en análisis de datos.
+    </p>
+
+    <!-- Bloque 3: Botón centrado -->
+    <div class="d-flex justify-content-center mt-5">
+      <a href="pasos_github.html" class="btn btn-orange">
+        Pasos para crear una cuenta
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Sección: Reto -->
+<section id="reto" class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">🧪 Tu primer reto</h2>
+    <p>Crea tu cuenta en GitHub y sube un proyecto esta semana.</p>
+    <ol class="text-start d-inline-block text-left">
+      <li>Crea un repositorio llamado <code>mi-portafolio</code></li>
+      <li>Agrega un <code>README.md</code> con tu presentación</li>
+      <li>Sube al menos un notebook o script</li>
+    </ol>
+  </div>
+</section>
+
+<!-- Sección: Recursos -->
+<section id="recursos" class="py-5 section-alt">
+  <div class="container">
+    <h2 class="mb-4">📚 Recursos recomendados</h2>
+    <ul>
+      <li><a href="https://guides.github.com/activities/hello-world/" target="_blank">Guía de GitHub para principiantes</a></li>
+      <li><a href="https://www.markdownguide.org/" target="_blank">Guía rápida de Markdown</a></li>
+      <li><a href="https://github.com/llSourcell" target="_blank">Ejemplo de portafolio</a></li>
+      <li><a href="https://www.youtube.com/watch?v=w3jLJU7DT5E" target="_blank">¿Qué es GitHub? (video)</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  Hecho con ❤️ por Adriana Ávalos Vargas | <a href="https://github.com/tuusuario" class="text-white" target="_blank">Mi GitHub</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
