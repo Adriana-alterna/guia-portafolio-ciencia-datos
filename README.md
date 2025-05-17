@@ -1,17 +1,9 @@
 
 ---
 
-## 📊 Proyecto de ejemplo: Análisis del desempeño estudiantil
+## 📊 Página para aprender a hacer portafolios de Ciencia de datos en GITHUB
 
-Se incluye un proyecto con visualizaciones generadas a partir del dataset `Comprehensive Student Scores Dataset`, ideal para practicar:
-
-- Limpieza y carga de datos
-- Análisis descriptivo
-- Gráficos con `matplotlib`, `seaborn` y `plotly express`
-- Buenas prácticas de visualización
-
-> Ver el notebook 👉 [notebooks/visualizaciones_student_scores.ipynb](notebooks/visualizaciones_student_scores.ipynb)
-
+Se trata de una página en html en la que se presenta qué es github, la estructura de un portafolo, como se crea la cuenta, cómo se crea un proyecto. 
 ---
 
 ## ✅ Buenas prácticas incluidas
